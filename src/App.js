@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/MicroservicioEstudiantes/Login.js';
 import Register from './components/MicroservicioEstudiantes/Register';
-import Welcome from './components/WelcomeApp';
+import Welcome from './components/MicroservicioEstudiantes/WelcomeApp';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/Welcome.css'
+import '../../assets/Welcome.css'
 const Welcome = () => {
   return (
     <div>
