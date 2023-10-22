@@ -12,7 +12,7 @@ const Welcome = () => {
         </ul>
         <ul >
          <li><a href="#teachers">Login</a></li>
-          <li><a href="#contact">Register</a></li>
+          <li><a href="/register">Register</a></li>
         </ul>
       </nav>
 
