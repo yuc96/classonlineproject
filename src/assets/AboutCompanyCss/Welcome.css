@@ -1,0 +1,140 @@
+/* Welcome.css */
+
+
+/* Estilos para el contenedor principal */
+.welcome-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  /* Estilos para el contenido principal */
+  .main-content {
+    padding: 20px;
+  }
+
+/*Custom Button*/
+.custom-button {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 20px 40px;
+    background-color: #021020;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(152, 23, 23, 0.1); 
+    transition: transform 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.1);
+    background-color: #293071;
+
+  }
+  
+  .custom-button:active {
+    transform: scale(0.9);
+  }
+   /* About Welcome */
+   .infoApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    /* background-color: #95b8e1; */
+
+   }
+   .aboutInfo{
+    width: 45%;
+    height: auto;
+    padding: 5px;
+    margin-right: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: #293071; */
+    text-align: center;
+ 
+   }
+   .aboutInfo p{
+    margin-bottom: 25px;
+    font-size: 30px;
+   } 
+   .aboutImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    /* background-color: antiquewhite; */
+   }
+   .aboutImage img{ 
+      width: 550px;
+   }
+
+   /*Medias Query*/
+   @media screen and (max-width: 1100px) {
+        .about{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; 
+          text-align: center;
+          margin: 0;
+          padding: 0;
+          /* background-color: #293071;  */
+        }
+        .aboutInfo{
+          margin-right: 0;
+          margin-bottom: 30px;
+          width: 80%;
+          height: auto;
+          /* background-color: #333; */
+          text-align: center;
+          
+        }
+        .aboutImage{
+          margin: 0;
+          padding: 0;
+          margin-left: 0;
+
+          /* background-color: antiquewhite; */
+        }
+        .aboutInfo p{
+          margin-bottom: 20px;
+        }
+        .aboutImage img{ 
+          width: 65%;
+      }
+      .custom-button {
+        margin: 0;
+      }
+
+   }
+
+   @media screen and (max-width: 481px) {
+    .aboutImage img{ 
+      width: 90%;
+    }
+    .infoApp h2{
+      text-align: center;
+    }
+    .aboutInfo p{
+      font-size: 20px;
+    }
+   }

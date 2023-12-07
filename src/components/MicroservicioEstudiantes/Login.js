@@ -4,9 +4,8 @@ import '../../assets/Login.css';
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
   const handleSubmit = (event) => {
-    event.preventDefault();
+  event.preventDefault();
     // Aquí puedes agregar la lógica para autenticar al usuario
     // por ejemplo, enviar los datos al servidor.
   };
@@ -16,7 +15,6 @@ const Login = () => {
     // o mostrar un formulario de registro en el mismo componente.
     alert('Redirect to registration page or show registration form');
   };
-
   return (
     <div className="login-container">
       <form onSubmit={handleSubmit} className="login-form">
